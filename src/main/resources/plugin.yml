@@ -1,9 +1,9 @@
-name: First
+name: Clock
 version: ${project.version}
-main: com.keitan.first.First
+main: jp.eximradar.keitan.time.Time
 api-version: 1.16
 authors: [keitan]
-description: Sample
+description: Time Check Tool
 
 commands:
   ping:
