@@ -24,7 +24,7 @@ public class TimeCommandExecutor implements CommandExecutor {
       Date date=new Date();
       DateFormat dateFormat=new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
       String formattedDate=dateFormat.format(date);
-      sender.sendMessage(formattedDate);
+      sender.sendMessage("現在時刻は" + formattedDate + "です！");
       return true;
     }
     return false;
