@@ -1,0 +1,14 @@
+name: First
+version: ${project.version}
+main: com.keitan.first.First
+api-version: 1.16
+authors: [keitan]
+description: Sample
+
+commands:
+  ping:
+    description: ping pong.
+    usage: /ping
+  time:
+    description: show now time.
+    usage: /time
