@@ -9,6 +9,6 @@ commands:
   ping:
     description: ping pong.
     usage: /ping
-  time:
+  clock:
     description: show now time.
-    usage: /time
+    usage: /clock

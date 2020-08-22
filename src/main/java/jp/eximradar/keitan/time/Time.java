@@ -9,7 +9,7 @@ public final class Time extends JavaPlugin {
   @Override
   public void onEnable() {
     // Plugin startup logic
-    getCommand("time").setExecutor(new TimeCommandExecutor(this));
+    getCommand("clock").setExecutor(new TimeCommandExecutor(this));
     getLogger().info("プラグインが有効になったよ！");
   }
 

@@ -20,7 +20,7 @@ public class TimeCommandExecutor implements CommandExecutor {
     if(cmd.getName().equalsIgnoreCase("ping")){
       sender.sendMessage("pong");
       return true;
-    }else if(cmd.getName().equalsIgnoreCase("time")){
+    }else if(cmd.getName().equalsIgnoreCase("clock")){
       Date date=new Date();
       DateFormat dateFormat=new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
       String formattedDate=dateFormat.format(date);
